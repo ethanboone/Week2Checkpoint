@@ -1,0 +1,26 @@
+body {
+    background-image: url(space-2.jpg);
+    background-size: cover;
+    background-position: 50% 25%;
+    font-family: 'Teko', sans-serif;
+}
+ 
+p {
+    font-size: larger;
+}
+ 
+.text {
+    color: rgb(255, 238, 0)!important;
+}
+ 
+.card {
+    background-color: rgb(26, 26, 26)!important;
+}
+ 
+img#planet {
+    display: block!important;
+    width: auto!important;
+    height: auto!important;
+    max-width: 80%!important;
+    max-height: 300px!important;
+}

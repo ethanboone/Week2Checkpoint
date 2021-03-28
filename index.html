@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Planets</title>
+</head>
+
+<body>
+    <header class="card" onclick="location.reload()">
+        <nav class="navbar navbar-light">
+            <span class="navbar-brand mb-0 h1 text d-flex justify-content-start">STAR WARS CLICKER</span>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="planet" class="col">
+
+                </div>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-6 col-md-3 card d-flex text-center color" id="money"></div>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-6 col-lg-3 order-2 order-lg-1 card d-flex align-content-start card text" id="upgrades">
+                </div>
+                <div class="col-12 col-lg-4 order-1 order-lg-2 d-flex justify-content-center my-4">
+                    <img id="click" src="deathstar.png" class="img-fluid" id="planet" alt="death star" onclick="mine()">
+                </div>
+                <div class="col-6 col-lg-3 order-3 card d-flex align-content-start text" id="auto">
+                </div>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-6 col-md-4 my-4 py-4 d-flex text-center text" id="trophy"></div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer></footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
